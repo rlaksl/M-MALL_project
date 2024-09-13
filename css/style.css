@@ -95,32 +95,59 @@ main .forYou .forYouList div a:nth-child(4) .infor {margin-bottom: 67px;}
 main .forYou .forYouList div a .infor h3 {font-size: 1.56rem; margin-bottom: 13px; font-weight: 500;}
 main .forYou .forYouList div a .infor p {line-height: 23px; color: #565656;}
 /* ===================================CONT5(living) 시작 */
-main .living {margin-bottom: 123px;}
-main .living h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
-main .living .livingWrap {display: flex;}
-main .living .livingList {width: calc((100% / 3) - 20px); margin-left: 20px;}
-main .living .livingList:nth-child(1) {margin-left: 0;}
-main .living .livingList .photo {}
-main .living .livingList .photo img {width: 100%;}
-main .living .livingList .photo img {}
-main .living .livingList .infor {width: 100%; padding: 50px 0; text-align: center;}
-main .living .livingList:nth-child(1) {background: #FFFDD9;}
-main .living .livingList:nth-child(2) {background: #FAE3E3;}
-main .living .livingList:nth-child(3) {background: #E8EBEC;}
-main .living .livingList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
-main .living .livingList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
+main .livingWrap {margin-bottom: 123px;}
+main .livingWrap h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .livingWrap .livingContent {display: flex;}
+main .livingWrap .livingList {width: calc((100% / 3) - 20px); margin-left: 20px;}
+main .livingWrap .livingList:nth-child(1) {margin-left: 0;}
+main .livingWrap .livingList .photo {}
+main .livingWrap .livingList .photo img {width: 100%;}
+main .livingWrap .livingList .photo img {}
+main .livingWrap .livingList .infor {width: 100%; padding: 50px 0; text-align: center;}
+main .livingWrap .livingList:nth-child(1) {background: #FFFDD9;}
+main .livingWrap .livingList:nth-child(2) {background: #FAE3E3;}
+main .livingWrap .livingList:nth-child(3) {background: #E8EBEC;}
+main .livingWrap .livingList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
+main .livingWrap .livingList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
 /* ===================================CONT6(tech) 시작 */
-main .tech {margin-bottom: 123px;}
-main .tech h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
-main .tech .techWrap {display: flex;}
-main .tech .techList {width: calc((100% / 3) - 20px); margin-left: 20px;}
-main .tech .techList:nth-child(1) {margin-left: 0;}
-main .tech .techList .photo {}
-main .tech .techList .photo img {width: 100%;}
-main .tech .techList .photo img {}
-main .tech .techList .infor {width: 100%; padding: 50px 0; text-align: center;}
-main .tech .techList:nth-child(1) {background: #DFDFEB;}
-main .tech .techList:nth-child(2) {background: #FFE2CE;}
-main .tech .techList:nth-child(3) {background: #F1FFED;}
-main .tech .techList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
-main .tech .techList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
+main .techWrap {margin-bottom: 123px;}
+main .techWrap h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .techWrap .techContent {display: flex;}
+main .techWrap .techList {width: calc((100% / 3) - 20px); margin-left: 20px;}
+main .techWrap .techList:nth-child(1) {margin-left: 0;}
+main .techWrap .techList .photo {}
+main .techWrap .techList .photo img {width: 100%;}
+main .techWrap .techList .photo img {}
+main .techWrap .techList .infor {width: 100%; padding: 50px 0; text-align: center;}
+main .techWrap .techList:nth-child(1) {background: #DFDFEB;}
+main .techWrap .techList:nth-child(2) {background: #FFE2CE;}
+main .techWrap .techList:nth-child(3) {background: #F1FFED;}
+main .techWrap .techList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
+main .techWrap .techList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
+/* ===================================CONT7(Super brand) 시작 */
+main .superBrand {padding: 0 60px; margin-bottom: 123px;}
+main .superBrand .subTitle {font-size: 1.25rem; margin-bottom: 5px;}
+main .superBrand h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .superBrand ul {display: flex; justify-content: space-between;}
+main .superBrand ul a {}
+main .superBrand ul a .photo {}
+main .superBrand ul a .photo img {}
+main .superBrand ul a .brandName {text-align: center; margin-top: 20px;}
+/* ===================================CONT8(sportWrap) 시작 */
+main .sportWrap {padding: 0 60px; margin-bottom: 123px;}
+main .sportWrap h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .sportWrap .sportContent {display: flex;}
+main .sportWrap .sportContent .sportItem {}
+main .sportWrap .sportContent .sportItem ul {}
+main .sportWrap .sportContent .sportItem ul li {position: relative;}
+main .sportWrap .sportContent .sportItem ul li a {}
+main .sportWrap .sportContent .sportItem ul li a .photo {}
+main .sportWrap .sportContent .sportItem ul li a .photo img {}
+main .sportWrap .sportContent .sportItem ul li a .infor {position: absolute; top: 250px; left: 40px;}
+main .sportWrap .sportContent .sportItem ul li a .infor h3 {color: #fff; font-size: 2.10rem; }
+main .sportWrap .sportContent .sportItem ul li a .infor p {}
+main .sportWrap .sportContent .sportItem ul li a .infor .brandList {}
+main .sportWrap .sportContent .sportItem ul li a .infor .brandList li {}
+main .sportWrap .sportContent .sportItem ul li a .infor .brandList li a {display: block;  background-color: #000;}
+.sportItemRight {display: flex;}
+.sportItemRight a {display: block;  width: calc((100% / 4) - 20px); margin-left: 20px;}
