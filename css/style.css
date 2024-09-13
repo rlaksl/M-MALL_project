@@ -140,9 +140,8 @@ main .sportWrap .sportContent {display: flex;}
 main .sportWrap .sportContent .sportItem {}
 main .sportWrap .sportContent .sportItem ul {}
 main .sportWrap .sportContent .sportItem ul li {position: relative;}
+main .sportWrap .sportContent .sportItem ul li:nth-child(1) a{background-image: url(../img/cont8_1.png);}
 main .sportWrap .sportContent .sportItem ul li a {}
-main .sportWrap .sportContent .sportItem ul li a .photo {}
-main .sportWrap .sportContent .sportItem ul li a .photo img {}
 main .sportWrap .sportContent .sportItem ul li a .infor {position: absolute; top: 250px; left: 40px;}
 main .sportWrap .sportContent .sportItem ul li a .infor h3 {color: #fff; font-size: 2.10rem; }
 main .sportWrap .sportContent .sportItem ul li a .infor p {}
