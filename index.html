@@ -328,13 +328,13 @@
         </ul>
       </div><!-- cont3 -->
       <div class="forYou">
-        <p>For You</p>
+        <p class="subTitle">For You</p>
         <h2>이런 브랜드는 어때요?</h2>
-        <div class="swiper cont4">
+        <div class="swiper forYouList">
           <div class="swiper-wrapper">
             <a href="#" class="swiper-slide">
-              <img src="./img/cont4_1.png" alt="폴로 랄프 로렌">
-              <div class="txt">
+              <div class="photo"><img src="./img/cont4_1.png" alt="폴로 랄프 로렌"></div>
+              <div class="infor">
                 <h3>폴로 랄프 로렌</h3>
                 <p>
                   미국을 대표하는 브랜드<br>
@@ -344,8 +344,8 @@
               </div>
             </a>
             <a href="#" class="swiper-slide">
-              <img src="./img/cont4_2.png" alt="ST듀퐁">
-              <div class="txt">
+              <div class="photo"><img src="./img/cont4_2.png" alt="ST듀퐁"></div>
+              <div class="infor">
                 <h3>ST듀퐁</h3>
                 <p>
                   ST듀퐁은 진귀한 소재와 탁월한 기술력으로<br>
@@ -355,8 +355,8 @@
               </div>
             </a>
             <a href="#" class="swiper-slide">
-              <img src="./img/cont4_3.png" alt="호카오네오네">
-              <div class="txt">
+              <div class="photo"><img src="./img/cont4_3.png" alt="호카오네오네"></div>
+              <div class="infor">
                 <h3>호카오네오네</h3>
                 <p>
                   프랑스에서 탄생한 프리미엄 러닝 아웃도어 브랜드<br>
@@ -366,19 +366,70 @@
               </div>
             </a>
             <a href="#" class="swiper-slide">
-              <img src="./img/cont4_1.png" alt="폴로 랄프 로렌">
-              <div class="txt">
-                <h3>폴로 랄프 로렌</h3>
+              <div class="photo"><img src="./img/cont4_4.png" alt="라코스테"></div>
+              <div class="infor">
+                <h3>라코스테</h3>
                 <p>
-                  미국을 대표하는 브랜드<br>
-                  최고의 품질과 품격을 잃지 않는 디자인으로<br>
-                  전 세계에서 꾸준히 사랑받고 있는 브랜드입니다.
+                  라코스테는 우리의 행성을 위한<br>
+                  지속 가능한 패션 세계를 만들어 갑니다.
                 </p>
               </div>
             </a>
           </div>
         </div>
-      </div>
+      </div><!-- forYou(cont4) -->
+      <div class="living">
+        <h2>리빙 기획전</h2>
+        <div class="livingWrap">
+          <div class="livingList">
+            <div class="photo"><img src="img/cont5_1.png" alt="싱그러움 가득한 집(리빙 기획전)"></div>
+            <div class="infor">
+              <h3>싱그러움 가득한 집</h3>
+              <p>여름 대비 홈스타일링</p>
+            </div>
+          </div>
+          <div class="livingList">
+            <div class="photo"><img src="img/cont5_2.png" alt="루이스 폴센 특별 할인전"></div>
+            <div class="infor">
+              <h3>루이스 폴센 특별 할인전</h3>
+              <p>최대 30% 할인 프로모션</p>
+            </div>
+          </div>
+          <div class="livingList">
+            <div class="photo"><img src="img/cont5_3.png" alt="육아용품 할인전"></div>
+            <div class="infor">
+              <h3>좋은 것만 주고 싶어서</h3>
+              <p>꼼꼼한 부모님들의 육아템</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- living(cont5) -->
+      <div class="tech">
+        <h2>테크 기획전</h2>
+        <div class="techWrap">
+          <div class="techList">
+            <div class="photo"><img src="img/cont6_1.png" alt="눈과 귀가 즐거운 시간(테크 기획전)"></div>
+            <div class="infor">
+              <h3>눈과 귀가 즐거운 시간</h3>
+              <p>추억도 사운드도 생생하게</p>
+            </div>
+          </div>
+          <div class="techList">
+            <div class="photo"><img src="img/cont6_2.png" alt="매일매일 새 옷처럼(테크 기획전)"></div>
+            <div class="infor">
+              <h3>매일매일 새 옷처럼</h3>
+              <p>여름철 의류관리는 섬세하게</p>
+            </div>
+          </div>
+          <div class="techList">
+            <div class="photo"><img src="img/cont6_3.png" alt="올여름도 잘 부탁해(테크 기획전)"></div>
+            <div class="infor">
+              <h3>올여름도 잘 부탁해!</h3>
+              <p>무더위 날리는 여름 가전 총집합</p>
+            </div>
+          </div>
+        </div>
+      </div><!-- living(cont6) -->
 
 
 
@@ -407,7 +458,7 @@
       autoplay:{delay:2000},
       loop:true,
     })
-    const cont4 = new Swiper('.cont4',{
+    const cont4 = new Swiper('.forYouList',{
       slidesPerView:3,
       spaceBetween:20,
     })

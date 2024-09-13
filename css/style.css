@@ -81,5 +81,46 @@ main .cont3 .cont3_event li a .txt {text-align: center; width: 100%; padding-top
 main .cont3 .cont3_event li a .txt p {color: #fff; margin: 0 auto; margin: 25px 0;}
 main .cont3 .cont3_event li a .txt h2 {font-size: 3.14rem; font-weight: 500; color: #fff;}
 main .cont3 .cont3_event li a .txt h3 {width: 257px; margin-top: 10px; border: 1px solid #fff; color: #fff; padding: 13px 10px; margin: 0 auto;}
-/* ===================================CONT4 시작 */
-.forYou {padding: 0 60px; margin-bottom: 123px;}
+/* ===================================CONT4(forYou) 시작 */
+main .forYou {padding: 0 60px; margin-bottom: 123px;}
+main .forYou .subTitle {font-size: 1.25rem; margin-bottom: 5px;}
+main .forYou h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .forYou .forYouList {}
+main .forYou .forYouList div {}
+main .forYou .forYouList div a {border: 0.5px solid #6a6a6a; overflow: hidden;}
+main .forYou .forYouList div a div {}
+main .forYou .forYouList div a div > img {}
+main .forYou .forYouList div a .infor {text-align: center; margin: 44px 0;}
+main .forYou .forYouList div a:nth-child(4) .infor {margin-bottom: 67px;}
+main .forYou .forYouList div a .infor h3 {font-size: 1.56rem; margin-bottom: 13px; font-weight: 500;}
+main .forYou .forYouList div a .infor p {line-height: 23px; color: #565656;}
+/* ===================================CONT5(living) 시작 */
+main .living {margin-bottom: 123px;}
+main .living h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .living .livingWrap {display: flex;}
+main .living .livingList {width: calc((100% / 3) - 20px); margin-left: 20px;}
+main .living .livingList:nth-child(1) {margin-left: 0;}
+main .living .livingList .photo {}
+main .living .livingList .photo img {width: 100%;}
+main .living .livingList .photo img {}
+main .living .livingList .infor {width: 100%; padding: 50px 0; text-align: center;}
+main .living .livingList:nth-child(1) {background: #FFFDD9;}
+main .living .livingList:nth-child(2) {background: #FAE3E3;}
+main .living .livingList:nth-child(3) {background: #E8EBEC;}
+main .living .livingList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
+main .living .livingList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
+/* ===================================CONT6(tech) 시작 */
+main .tech {margin-bottom: 123px;}
+main .tech h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .tech .techWrap {display: flex;}
+main .tech .techList {width: calc((100% / 3) - 20px); margin-left: 20px;}
+main .tech .techList:nth-child(1) {margin-left: 0;}
+main .tech .techList .photo {}
+main .tech .techList .photo img {width: 100%;}
+main .tech .techList .photo img {}
+main .tech .techList .infor {width: 100%; padding: 50px 0; text-align: center;}
+main .tech .techList:nth-child(1) {background: #DFDFEB;}
+main .tech .techList:nth-child(2) {background: #FFE2CE;}
+main .tech .techList:nth-child(3) {background: #F1FFED;}
+main .tech .techList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
+main .tech .techList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
