@@ -1,9 +1,9 @@
-.wrap {min-width: 1920px; overflow-x: auto;}
-header {width: 100%; height: 80px; position: relative; background: #F7F7F7; display: flex; justify-content: space-between; align-items: center; padding: 0 60px;}
+.wrap {/* min-width: 1920px;  */overflow-x: hidden;}
+header {position: fixed; top: 0; left: 0; width: 100%; height: 80px; z-index: 100;  background: #f9f9f9; display: flex; justify-content: space-between; align-items: center; padding: 0 60px;}
 header .logo {}
-header .logo a {display: block;}
-header .logo a img {width: 132px; height: auto;}
-header nav {position: absolute;  width: max-content; left: 50%; transform: translateX(-50%);}
+header .logo a {display: block; width: 132px;}
+header .logo a img {width: 100%; height: auto;}
+header nav {text-align: center; /* width: max-content; */}
 header nav .gnb {display: flex;}
 header nav .gnb > li {margin-left: 53px; }
 header nav .gnb > li:hover a {font-weight: 600; transition: all 0.5s;}
@@ -15,6 +15,7 @@ header .lnb {display: flex;}
 header .lnb li {margin-left: 25px;}
 header .lnb li:nth-child(1) {margin: 0;}
 /* ===================================mainVisual 시작 */
+main {padding-top: 80px;}/* 헤더 높이 */
 main .main {height: 700px; margin-bottom: 123px;}
 /* ===================================CONT1 시작 */
 main .cont1 {width: 100%; padding: 0 60px; margin-bottom: 123px;}
@@ -148,5 +149,135 @@ main .sportWrap .sportContent .sportItem ul li a .infor p {}
 main .sportWrap .sportContent .sportItem ul li a .infor .brandList {}
 main .sportWrap .sportContent .sportItem ul li a .infor .brandList li {}
 main .sportWrap .sportContent .sportItem ul li a .infor .brandList li a {display: block;  background-color: #000;}
-.sportItemRight {display: flex;}
-.sportItemRight a {display: block;  width: calc((100% / 4) - 20px); margin-left: 20px;}
+main .sportWrap .sportContent .sportItemRight {display: flex;}
+main .sportWrap .sportContent .sportItemRight a {display: block;  width: calc((100% / 4) - 20px); margin-left: 20px;}
+main .sportWrap .sportContent .sportItemRight .photo {}
+main .sportWrap .sportContent .sportItemRight .textBox {}
+main .sportWrap .sportContent .sportItemRight .textBox .brandName {font-size: 1.25rem; margin-bottom: 13px; font-weight: 500;}
+main .sportWrap .sportContent .sportItemRight .textBox .productName {color: #565656;}
+main .sportWrap .sportContent .sportItemRight .textBox .price {color: #565656; margin: 10px 0 17px 0;}
+main .sportWrap .sportContent .sportItemRight .textBox .mpoint {color: #898989; border: 0.5px solid #898989; border-radius: 6px; padding: 3px 8px; display: inline-block;}
+/* ===================================CONT9(artShop) 시작 */
+main .artShopWrap {margin-bottom: 123px;}
+main .artShopWrap h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .artShopWrap > .artShop {display: flex;/*  justify-content: space-between; */}
+main .artShopWrap > .artShop > li {margin-left: 20px;}
+main .artShopWrap > .artShop > li:nth-child(1) {margin-left: 0;}
+main .artShopWrap > .artShop > li > ul {}
+main .artShopWrap > .artShop > li > ul > li {}
+main .artShopWrap > .artShop > li > ul > .artShopListTop {margin-bottom: 20px;}
+main .artShopWrap > .artShop > li > ul > li a{}
+/* ===================================CONT10(book) 시작 */
+main .bookWrap {padding: 0 60px; margin-bottom: 123px;}
+main .bookWrap h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .bookWrap .bookList {}
+main .bookWrap .bookList ul {display: flex; justify-content: space-between;}
+main .bookWrap .bookList ul li {}
+main .bookWrap .bookList ul li a {}
+main .bookWrap .bookList ul li a .photo {margin-bottom: 20px;}
+main .bookWrap .bookList ul li a .photo img {}
+main .bookWrap .bookList ul li a h3 {font-size: 1.25rem; margin-bottom: 13px; font-weight: 500;}
+main .bookWrap .bookList ul li a .price {color: #565656; margin: 10px 0 17px 0;}
+main .bookWrap .bookList ul li a .mpoint {color: #898989; border: 0.5px solid #898989; border-radius: 6px; padding: 3px 8px; display: inline-block;}
+/* ===================================CONT11(mPoint) 시작 */
+main .mPointWrap {margin-bottom: 200px;}
+main .mPointWrap h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .mPointWrap .mPoint {}
+main .mPointWrap .mPoint ul {padding: 25.5px; background: #F2F2F2; display: flex;}
+main .mPointWrap .mPoint ul .mPointList {}
+main .mPointWrap .mPoint ul .mPointList ul {display: flex;}
+main .mPointWrap .mPoint ul .mPointList ul > li {margin-left: 20px;}
+main .mPointWrap .mPoint ul .mPointList ul > li:nth-child(1) {margin-left: 0;}
+main .mPointWrap .mPoint ul .mPointList ul li a {}
+main .mPointWrap .mPoint ul .mPointList ul li a p {}
+main .mPointWrap .mPoint ul .mPointList ul li a p img {}
+main .mPointWrap .mPoint ul .mPointList ul li a .infor {margin-top: 20px;}
+main .mPointWrap .mPoint ul .mPointList ul li a .infor h3 {font-size: 1.25rem; margin-bottom: 13px; font-weight: 500;}
+main .mPointWrap .mPoint ul .mPointList ul li a .infor .productName {color: #565656; margin: 10px 0 7px 0;}
+main .mPointWrap .mPoint ul .mPointList ul li a .infor .price {color: #565656;}
+main .mPointWrap .mPoint ul .mPointGo {width: 588px; padding: 100px 0 0 80px;}
+main .mPointWrap .mPoint ul .mPointGo a {display: block;}
+main .mPointWrap .mPoint ul .mPointGo a .title {font-size: 1.88rem; font-weight: 500;line-height: 43px;}
+main .mPointWrap .mPoint ul .mPointGo a .title span {font-size: 2.50rem; font-weight: 600;}
+main .mPointWrap .mPoint ul .mPointGo a .list {margin-top: 30px; width: 210px;}
+main .mPointWrap .mPoint ul .mPointGo a .list p {display: inline-block; border: 1px solid #000; border-radius: 20px; padding: 8px 10px; margin-left: 8px;}
+main .mPointWrap .mPoint ul .mPointGo a .list p:nth-child(1) {margin-left: 0;}
+main .mPointWrap .mPoint ul .mPointGo a .list p:nth-child(4) {margin-left: 0; margin-top: 8px;}
+/* ===================================banner 시작 */
+main .banner {margin-bottom: 250px; display: flex; justify-content: space-between;}
+main .banner li {}
+main .banner li a {}
+main .banner li a img {}
+/* ===================================footer 시작 */
+footer {background: #000;}
+footer .footerWrap {padding-top: 10px; display: flex; /* justify-content: space-between; */}
+footer .footerWrap .footerLeft{background: #fff; width: 633px; border-radius: 25px;}
+footer .footerWrap .footerLeft p {padding: 74px; border-bottom: 2px solid #000;}
+footer .footerWrap .footerLeft p img{}
+footer .footerWrap .footerLeft > ul {display: flex; justify-content: space-between;}
+footer .footerWrap .footerLeft ul .appLink {}
+footer .footerWrap .footerLeft ul .appLink ul {}
+footer .footerWrap .footerLeft ul .appLink ul li {}
+footer .footerWrap .footerLeft ul .appLink ul li:nth-child(1) {border-bottom: 2px solid #000; padding: 23px 40px 26px 20px;}
+footer .footerWrap .footerLeft ul .appLink ul li:nth-child(2) {padding: 23px 20px 20px 26px;}
+footer .footerWrap .footerLeft ul .appLink ul li img {}
+footer .footerWrap .footerLeft ul .qrCode {border-left: 2px solid #000; padding: 60px;}
+footer .footerWrap .footerLeft ul .qrCode img {}
+/* footerRight 시작 */
+footer .footerWrap .footerRight {width: calc(100% - 633px); background: #fff; margin-left: 10px; padding: 105px 159px 0 127px; border-radius: 25px; display: flex; justify-content: space-between;}
+footer .footerWrap .footerRight .rightCenter {}
+footer .footerWrap .footerRight .rightCenter .centerTop {}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap {border-bottom: 2px solid #000;}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap a {display: inline-block; padding-bottom: 29px; font-size: 1.38rem;}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap .notice {}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap .event {margin-left: 33px; color: #868686;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList {padding-top: 29px; height: 190px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul {}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li {margin-bottom: 20px; width: 620px; position: relative;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li:last-child {margin-bottom: 0;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li a {display: block;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li a span {color: #868686; font-size: 0.88rem; position: absolute; right: 0; line-height: 16px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList {display: none; padding-top: 29px; height: 190px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul {}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li {margin-bottom: 20px; width: 620px;position: relative;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li:last-child {margin-bottom: 0;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li a {display: block;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li a span {color: #868686; font-size: 0.88rem; position: absolute; right: 0; line-height: 16px;}
+/* 이용약관 */
+footer .footerWrap .footerRight .rightCenter .centerBottom{width: 620px; margin-top: 62px; display: flex; justify-content: space-between;}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl {}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dt {margin-bottom: 15px;}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dd{}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dd a{display: block; font-size: 0.88rem; margin-bottom: 10px;}
+
+
+
+
+footer .footerWrap .footerRight .rightR {}
+footer .footerWrap .footerRight .rightR .csCenter {}
+footer .footerWrap .footerRight .rightR .csCenter h3 {font-size: 1.38rem;}
+footer .footerWrap .footerRight .rightR .csCenter .csNumber {font-size: 1.88rem; margin: 10px 0 15px 0;}
+footer .footerWrap .footerRight .rightR .csCenter .csHours {}
+
+footer .footerWrap .footerRight .rightR .contact {margin-top: 55px;}
+footer .footerWrap .footerRight .rightR .contact h3 {font-size: 1.38rem; line-height: 1.8rem;}
+footer .footerWrap .footerRight .rightR .contact h3 img {}
+footer .footerWrap .footerRight .rightR .contact p {margin: 13px 0;}
+footer .footerWrap .footerRight .rightR .contact .mailAddress {font-size: 0.88rem; font-weight: 300;}
+footer .footerWrap .footerRight .rightR .button {display: flex; margin-top: 57px;}
+footer .footerWrap .footerRight .rightR .button a {display: inline-block; margin-right: 17px; border: 1px solid #868686; padding: 10px;}
+footer .footerWrap .footerRight .rightR .button a:hover {background: #000; color: #fff; border: #000;}
+footer .footerWrap .footerRight .rightR .button a:last-child {margin-right: 0;}
+
+footer .footerInforWrap {width: 1400px; margin: 0 auto; color: #F2F2F2; display: flex; justify-content: space-between; padding: 23px 0; }
+footer .footerInforWrap img {}
+footer .footerInforWrap .footerInfor {display: flex;}
+footer .footerInforWrap .footerInfor li {color: #F2F2F2; line-height: 30px;}
+footer .footerInforWrap .footerInfor li::after {content: '|'; padding: 0 10px;}
+footer .footerInforWrap .footerInfor li:nth-child(3):after {content: '';}
+footer .footerInforWrap .footerInfor li span {}
+footer .footerInforWrap .footerInfor li span a {color: #f2f2f2; font-size: 0.88rem; cursor: pointer;}
+footer .footerInforWrap p {color: #F2F2F2; line-height: 30px;}
+
+#topBtn{display: block; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2;
+  text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}

@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M-MALL</title>
+  <title>M-MALL | 취향을 만나는 곳 현대카드 M몰</title>
   <!--플러그인 필수 css cdn 연결-->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <!--플러그인 필수 JS cdn 연결-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" href="./img/ico_favicon.ico" type="image/x-icon">
 </head>
 <body>
   <div class="wrap">
@@ -68,7 +70,7 @@
             </ul>
           </li>
           <li><!-- 컬처 -->
-            <a href="#">컬처</a>
+            <a href="./sub/culture.html">컬처</a>
             <ul class="sub">
               <li><a href="#">전체</a></li>
               <li><a href="#">바이닐</a></li>
@@ -723,7 +725,7 @@
         <div class="footerLeft">
           <p><img src="./img/footerLogo.png" alt="M-Mall"></p>
           <ul>
-            <li class="app">
+            <li class="appLink">
               <ul>
                 <li><img src="./img/footerAppStore.png" alt="앱 스토어"></li>
                 <li><img src="./img/footerGooglePlay.png" alt="구글 플레이스토어"></li>
@@ -733,15 +735,80 @@
           </ul>
         </div><!-- Left -->
         <div class="footerRight">
-          <div class="notice">
-            <p>공지사항</p>
-            <p>이벤트</p>
-          </div>
+          <div class="rightCenter">
+            <div class="centerTop">
+              <div class="tap">
+                <a href="#" class="notice">공지사항</a>
+                <a href="#" class="event">이벤트</a>
+              </div>
+              <div class="noticeList">
+                <ul>
+                  <li><a href="#">· M몰 스노우피크 리빙쉘 롱Pro. 상품 정보 오등록으로 인한 주문 취소 안내<span>2024.07.18</span></a></li>
+                  <li><a href="#">· 5월 첫구매 이벤트 리워드 적립 일정 변경<span>2024.06.28</span></a></li>
+                  <li><a href="#">· ‘Apple Day’ 운영 방식 변경 안내 (선착순 구매 방식 적용)<span>2024.04.19</span></a></li>
+                  <li><a href="#">· ‘Apple Day’ 운영 방식 변경 안내<span>2024.01.19</span></a></li>
+                  <li><a href="#">· M몰 Grand Festa 럭키드로우 3차 당점차 발표(12/28일)<span>2023.12.26</span></a></li>
+                </ul>
+              </div>
+              <div class="eventList">
+                <ul>
+                  <li><a href="#">· M몰에서 첫 구매하고 웰컴 리워드 받아 보세요!<span>2024.08.09</span></a></li>
+                  <li><a href="#">· 여름맞이 프로모션<span>2024.06.10</span></a></li>
+                  <li><a href="#">· 회원 전용 이벤트<span>2024.04.19</span></a></li>
+                </ul>
+              </div>
+            </div><!-- centerTop -->
+            <div class="centerBottom">
+              <dl>
+                <dt><a href="#">약관 및 정책</a></dt>
+                <dd><a href="#">이용약관</a></dd>
+                <dd><a href="#">개인정보처리방침</a></dd>
+                <dd><a href="#">고객권리안내</a></dd>
+              </dl>
+              <dl>
+                <dt><a href="#">MY ACCOUNT</a></dt>
+                <dd><a href="#">회원정보 수정</a></dd>
+                <dd><a href="#">회원등급</a></dd>
+                <dd><a href="#">M포인트 현황</a></dd>
+                <dd><a href="#">쿠폰</a></dd>
+              </dl>
+              <dl>
+                <dt><a href="#">FAMILY SITE +</a></dt>
+              </dl>
+            </div><!-- centerBottom -->
+          </div><!-- rightCenter -->
+          <div class="rightR">
+            <div class="csCenter">
+              <h3>고객센터</h3>
+              <p class="csNumber">1577-5141</p>
+              <p class="csHours">평일 9:00 - 18:00(주말 공휴일 제외)</p>
+            </div>
+            <div class="contact">
+              <h3>1:1 문의 <img src="./img/ico_mail.png"></h3>
+              <p>업부시간 외에는 1:1 문의를 이용하세요.</p>
+              <p class="mailAddress ">mpointmall@hyundaicard.com</p>
+            </div>
+            <div class="button">
+              <a href="#">자주 하는 질문</a>
+              <a href="#">M몰 입점 문의</a>
+            </div>
+          </div><!-- rightR -->
         </div><!-- Right -->
+      </div><!-- footerWrap -->
+      <div class="footerInforWrap">
+        <img src="./img/footerCardLogo.png" alt="현대카드">
+        <ul class="footerInfor">
+          <li>서울특별시 영등포구 의사당대로3 현대카드빌딩 1관</li>
+          <li>대표이사 김 데이비드 덕환</li>
+          <li>사업자등록번호 213-86-15419 <span><a>(사업자정보확인 > )</a></span></li>
+        </ul>
+        <p>ⓒ HYUNDAI CARD Crop.</p>
       </div>
     </footer>
+    <a href="#" id="topBtn">TOP</a>
   </div><!-- wrap -->
   <script>
+    
     const main = new Swiper('.main',{
       autoplay:{delay:2000},
       loop:true,
@@ -766,7 +833,28 @@
     const cont8 = new Swiper('.sportItem',{
       slidesPerView:1
     })
-
+    $('.eventList').hide();
+    $('.notice').css({color : '#000'});
+    $('.event').css({color : '#868686'});
+    $('.notice').on('click',function(event) {
+      event.preventDefault();
+      $('.eventList').hide(); 
+      $('.noticeList').show();
+      $('.notice').css({color : '#000'});
+      $('.event').css({color : '#868686'});
+    });
+    $('.event').on('click', function(event) {
+      event.preventDefault();
+      $('.noticeList').hide();
+      $('.eventList').show();
+      $('.event').css({color : '#000'});
+      $('.notice').css({color : '#868686'});
+    });
+    let topBtn = document.getElementById('topBtn');
+    topBtn.addEventListener('click', function(e){
+      e.preventDefault(); //a태그의  href기능을 막아줌
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
   </script>
 </body>
 </html>
