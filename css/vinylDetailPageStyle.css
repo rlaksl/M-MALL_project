@@ -1,0 +1,141 @@
+.wrap {/* min-width: 1920px;  */overflow-x: hidden;}
+header {position: fixed; top: 0; left: 0; width: 100%; height: 80px; z-index: 100;  background: #f9f9f9; display: flex; justify-content: space-between; align-items: center; padding: 0 60px;}
+header .logo {}
+header .logo a {display: block; width: 132px;}
+header .logo a img {width: 100%; height: auto;}
+header nav {text-align: center; /* width: max-content; */}
+header nav .gnb {display: flex;}
+header nav .gnb > li {margin-left: 53px; }
+header nav .gnb > li:hover a {font-weight: 600; transition: all 0.5s;}
+header nav .gnb > li:nth-child(1) {margin: 0;}
+header nav .gnb > li a {}
+header nav .gnb > li:nth-child(9) a, header nav .gnb li:nth-child(10) a {color: #016ACA;}
+.sub {display: none;}
+header .lnb {display: flex;}
+header .lnb li {margin-left: 25px;}
+header .lnb li:nth-child(1) {margin: 0;}
+/* ===================================main 시작 */
+main {padding-top: 80px;}/* 헤더 높이 */
+main .product {margin: 120px 0 230px 0; display: flex; justify-content: center;}
+main .product .photo {margin-right: 60px;}
+main .product .photo img {}
+main .product .inforWrap {width: 587px; border-top: 2px solid #000; padding-top: 40px;}
+main .product .inforWrap .category {margin-bottom: 40px;}
+main .product .inforWrap .category h2 {font-weight: 600;}
+main .product .inforWrap .category div {margin: 22px 0; display: flex; justify-content: space-between;}
+main .product .inforWrap .category div h3 {font-size: 1.13rem;}
+main .product .inforWrap .category div .delivery {color: #016ACA; font-size: 0.81rem; border: 0.5px solid #016aca; padding: 5px; border-radius: 15px;}
+main .product .inforWrap .category .price {font-size: 1.25rem; font-weight: 500;}
+main .product .inforWrap .category .price > span {}
+main .product .inforWrap .category > p {font-weight: 300; margin-top: 15px;}
+main .product .inforWrap .category .mpoint {font-size: 0.81rem; color: #868686; background: #F2F2F2; padding: 5px 10px; border-radius: 10px; display: inline-block;}
+main .product .inforWrap .detailEx {border-top: 1px solid #c8c8c8; border-bottom: 1px solid #c8c8c8; padding: 40px 0;}
+main .product .inforWrap .detailEx dl {display: flex;}
+main .product .inforWrap .detailEx dl:nth-child(2) {margin: 25px 0;}
+main .product .inforWrap .detailEx .modelName dt {margin-right: 74px;}
+main .product .inforWrap .detailEx dl dt {margin-right: 61px;}
+main .product .inforWrap .detailEx dl dd {}
+main .product .inforWrap .button {margin-top: 40px; display: flex; justify-content: space-between;}
+main .product .inforWrap .button ul {display: flex;}
+main .product .inforWrap .button .like {align-items: center;}
+main .product .inforWrap .button .like li {}
+main .product .inforWrap .button .like li:nth-child(1) {cursor: pointer;}
+main .product .inforWrap .button ul li {margin-left: 10px;}
+main .product .inforWrap .button ul li:nth-child(1) {margin-left: 0;}
+main .product .inforWrap .button ul li a {display: block; border: 0.5px solid #848484; padding: 10.5px 51px;}
+main .product .inforWrap .button ul li .buy {color: #FBFBFB; background: #016ACA;}
+/* detail시작 */
+main .detail {text-align: center;}
+main .detail img {}
+main .detail h3 {font-size: 2.00rem; line-height: 50px; margin: 110px 0 35px 0;}
+main .detail .singer {color: #545454; font-size: 1.50rem; margin-bottom: 60px;}
+main .detail p {margin-bottom: 150px; font-size: 1.25rem; line-height: 30px;}
+main .detail p span {font-weight: 600; font-size: 1.33rem;}
+main .detail .photo {margin-bottom: 200px;}
+main .detail .photo img {}
+main .qna {padding-bottom: 20px; border-bottom: 2px solid #000;}
+main .qna , .review ul {display: flex; width: 1234px; margin: 0 auto; justify-content: space-between;}
+main .qna li {}
+main .qna li a {font-size: 1.38rem;}
+main .qna li .button, .review ul li .button {font-size: 0.88rem; border: 0.5px solid #545454; padding: 6px 22px;}
+main .review {margin-top: 111px; } 
+main .review ul {padding-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid #000;}
+main .review ul li {}
+main .review ul li a{font-size: 1.38rem;}
+main .review .text {width: 1234px; margin: 93px auto; padding-bottom: 93px; text-align: center; border-bottom: 1px solid #848484;}
+main .review .text h3 {margin-bottom: 15px; font-size: 1.13rem;}
+main .review .text p {font-size: 0.88rem;line-height: 15px;}
+main .review .text p img {}
+main .review .text p span {font-size: 0.88rem; color: #016ACA;}
+
+
+/* ===================================banner 시작 */
+main .banner {margin-top: 200px; margin-bottom: 250px; display: flex; justify-content: space-between;}
+main .banner li {}
+main .banner li a {}
+main .banner li a img {}
+/* ===================================footer 시작 */
+footer {background: #000;}
+footer .footerWrap {padding-top: 10px; display: flex; /* justify-content: space-between; */}
+footer .footerWrap .footerLeft{background: #fff; width: 633px; border-radius: 25px;}
+footer .footerWrap .footerLeft p {padding: 74px; border-bottom: 2px solid #000;}
+footer .footerWrap .footerLeft p img{}
+footer .footerWrap .footerLeft > ul {display: flex; justify-content: space-between;}
+footer .footerWrap .footerLeft ul .appLink {}
+footer .footerWrap .footerLeft ul .appLink ul {}
+footer .footerWrap .footerLeft ul .appLink ul li {}
+footer .footerWrap .footerLeft ul .appLink ul li:nth-child(1) {border-bottom: 2px solid #000; padding: 23px 40px 26px 20px;}
+footer .footerWrap .footerLeft ul .appLink ul li:nth-child(2) {padding: 23px 20px 20px 26px;}
+footer .footerWrap .footerLeft ul .appLink ul li img {}
+footer .footerWrap .footerLeft ul .qrCode {border-left: 2px solid #000; padding: 60px;}
+footer .footerWrap .footerLeft ul .qrCode img {}
+/* footerRight 시작 */
+footer .footerWrap .footerRight {width: calc(100% - 633px); background: #fff; margin-left: 10px; padding: 105px 159px 0 127px; border-radius: 25px; display: flex; justify-content: space-between;}
+footer .footerWrap .footerRight .rightCenter {}
+footer .footerWrap .footerRight .rightCenter .centerTop {}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap {border-bottom: 2px solid #000;}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap a {display: inline-block; padding-bottom: 29px; font-size: 1.38rem;}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap .notice {}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap .event {margin-left: 33px; color: #868686;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList {padding-top: 29px; height: 190px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul {}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li {margin-bottom: 20px; width: 620px; position: relative;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li:last-child {margin-bottom: 0;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li a {display: block;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li a span {color: #868686; font-size: 0.88rem; position: absolute; right: 0; line-height: 16px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList {display: none; padding-top: 29px; height: 190px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul {}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li {margin-bottom: 20px; width: 620px;position: relative;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li:last-child {margin-bottom: 0;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li a {display: block;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li a span {color: #868686; font-size: 0.88rem; position: absolute; right: 0; line-height: 16px;}
+/* 이용약관 */
+footer .footerWrap .footerRight .rightCenter .centerBottom{width: 620px; margin-top: 62px; display: flex; justify-content: space-between;}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl {}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dt {margin-bottom: 15px;}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dd{}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dd a{display: block; font-size: 0.88rem; margin-bottom: 10px;}
+footer .footerWrap .footerRight .rightR {}
+footer .footerWrap .footerRight .rightR .csCenter {}
+footer .footerWrap .footerRight .rightR .csCenter h3 {font-size: 1.38rem;}
+footer .footerWrap .footerRight .rightR .csCenter .csNumber {font-size: 1.88rem; margin: 10px 0 15px 0;}
+footer .footerWrap .footerRight .rightR .csCenter .csHours {}
+footer .footerWrap .footerRight .rightR .contact {margin-top: 55px;}
+footer .footerWrap .footerRight .rightR .contact h3 {font-size: 1.38rem; line-height: 1.8rem;}
+footer .footerWrap .footerRight .rightR .contact h3 img {}
+footer .footerWrap .footerRight .rightR .contact p {margin: 13px 0;}
+footer .footerWrap .footerRight .rightR .contact .mailAddress {font-size: 0.88rem; font-weight: 300;}
+footer .footerWrap .footerRight .rightR .button {display: flex; margin-top: 57px;}
+footer .footerWrap .footerRight .rightR .button a {display: inline-block; margin-right: 17px; border: 1px solid #868686; padding: 10px;}
+footer .footerWrap .footerRight .rightR .button a:hover {background: #000; color: #fff; border: #000;}
+footer .footerWrap .footerRight .rightR .button a:last-child {margin-right: 0;}
+footer .footerInforWrap {width: 1400px; margin: 0 auto; color: #F2F2F2; display: flex; justify-content: space-between; padding: 23px 0; }
+footer .footerInforWrap img {}
+footer .footerInforWrap .footerInfor {display: flex;}
+footer .footerInforWrap .footerInfor li {color: #F2F2F2; line-height: 30px;}
+footer .footerInforWrap .footerInfor li::after {content: '|'; padding: 0 10px;}
+footer .footerInforWrap .footerInfor li:nth-child(3):after {content: '';}
+footer .footerInforWrap .footerInfor li span {}
+footer .footerInforWrap .footerInfor li span a {color: #f2f2f2; font-size: 0.88rem; cursor: pointer;}
+footer .footerInforWrap p {color: #F2F2F2; line-height: 30px;}
+#topBtn{display: block; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2; text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}

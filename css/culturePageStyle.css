@@ -1,0 +1,205 @@
+.wrap {/* min-width: 1920px;  */overflow-x: hidden;}
+header {position: fixed; top: 0; left: 0; width: 100%; height: 80px; z-index: 100;  background: #f9f9f9; display: flex; justify-content: space-between; align-items: center; padding: 0 60px;}
+header .logo {}
+header .logo a {display: block; width: 132px;}
+header .logo a img {width: 100%; height: auto;}
+header nav {text-align: center; /* width: max-content; */}
+header nav .gnb {display: flex;}
+header nav .gnb > li {margin-left: 53px; }
+header nav .gnb > li:hover a {font-weight: 600; transition: all 0.5s;}
+header nav .gnb > li:nth-child(1) {margin: 0;}
+header nav .gnb > li a {}
+header nav .gnb > li:nth-child(9) a, header nav .gnb li:nth-child(10) a {color: #016ACA;}
+.sub {display: none;}
+header .lnb {display: flex;}
+header .lnb li {margin-left: 25px;}
+header .lnb li:nth-child(1) {margin: 0;}
+/* ===================================mainVisual 시작 */
+main {padding-top: 80px;}/* 헤더 높이 */
+/* ===================================CONT1(cultureEvent) 시작 */
+main .cultureEvent {margin-bottom: 123px; display: flex; justify-content: space-between;}
+main .cultureEvent .cultureEventList {width: calc((100% / 3) - 20px);}
+main .cultureEvent .cultureEventList:nth-child(1) {margin-left: 0; background: #C8D6CE;}
+main .cultureEvent .cultureEventList:nth-child(2) {background: #DFD9D3;}
+main .cultureEvent .cultureEventList:nth-child(3) {background: #F6F3D6;}
+main .cultureEvent .cultureEventList a {display: block;}
+main .cultureEvent .cultureEventList a .photo {}
+main .cultureEvent .cultureEventList a .photo img {width: 100%;}
+main .cultureEvent .cultureEventList a .infor {width: 100%; padding: 50px 0; text-align: center;}
+main .cultureEvent .cultureEventList a .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
+main .cultureEvent .cultureEventList a .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
+/* ===================================CONT2(book) 시작 */
+main .mdPick {padding: 0 60px; margin-bottom: 123px;}
+main .mdPick .subTitle {font-size: 1.25rem; margin-bottom: 5px;}
+main .mdPick h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .mdPick .mdPickList {}
+main .mdPick .mdPickList ul {display: flex; justify-content: space-between;}
+main .mdPick .mdPickList ul li {}
+main .mdPick .mdPickList ul li a {}
+main .mdPick .mdPickList ul li a .photo {margin-bottom: 20px;}
+main .mdPick .mdPickList ul li a .photo img {}
+main .mdPick .mdPickList ul li a h3 {font-size: 1.25rem; margin-bottom: 13px; font-weight: 500;}
+main .mdPick .mdPickList ul li a .price {color: #565656; margin: 10px 0 17px 0;}
+main .mdPick .mdPickList ul li a .mpoint {color: #898989; border: 0.5px solid #898989; border-radius: 6px; padding: 3px 8px; display: inline-block;}
+
+/* ===================================CONT3(forYou) 시작 */
+main .forYou {padding: 0 60px; margin-bottom: 123px;}
+main .forYou .subTitle {font-size: 1.25rem; margin-bottom: 5px;}
+main .forYou h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .forYou ul {display: flex; justify-content: space-between;}
+main .forYou ul a {}
+main .forYou ul a .photo {}
+main .forYou ul a .photo img {}
+main .forYou ul a .brandName {text-align: center; margin-top: 20px;}
+/* ===================================CONT4 시작 */
+main .bestItem {margin-bottom: 73px; padding: 0 60px;}
+main .bestItem .title {width: 283px; margin-bottom: 50px; display: flex; align-items: flex-end; justify-content: space-between;}
+main .bestItem .title h2 {font-size: 2.19rem; font-weight: 600;}
+main .bestItem .title p {color: #868686;}
+
+main .bestItem .wrap {display: flex;}
+main .bestItem .wrap .category {}
+main .bestItem .wrap .category ul {width: 283px;}
+main .bestItem .wrap .category ul li {margin-bottom: 28px;}
+main .bestItem .wrap .category ul li:last-child {margin-bottom: 0;}
+main .bestItem .wrap .category ul > .active {}
+main .bestItem .wrap .category ul li a {font-size: 1.25rem; color: #868686;}
+main .bestItem .wrap .category ul li .active {color: #000; text-decoration: underline;}
+
+main .bestItem .wrap .productList {}
+main .bestItem .wrap .productList .product {}
+main .bestItem .wrap .productList .product ul {display: flex; justify-content: space-between; flex-wrap: wrap;}
+main .bestItem .wrap .productList .product ul li {width: calc((100% / 5) - 20px); margin-left: 20px; margin-bottom: 50px;}
+main .bestItem .wrap .productList .product ul li a {display: block;}
+main .bestItem .wrap .productList .product ul li a .photo {margin-bottom: 20px;}
+main .bestItem .wrap .productList .product ul li a .photo img {width: 100%;}
+
+main .bestItem .wrap .productList .product ul li a .infor {}
+main .bestItem .wrap .productList .product ul li a .infor h3 {font-size: 1.25rem; font-weight: 500; margin-bottom: 13px;}
+main .bestItem .wrap .productList .product ul li a .infor h4 {}
+main .bestItem .wrap .productList .product ul li a .infor .price {color: #565656; margin: 10px 0 17px 0;}
+main .bestItem .wrap .productList .product ul li a .infor .mpoint {color: #898989; border: 0.5px solid #898989; border-radius: 6px; padding: 3px 8px; display: inline-block;}
+/* ===================================CONT5 시작 */
+main .artShopWrap {margin-bottom: 123px;}
+main .artShopWrap h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px; padding-left: 60px;}
+main .artShopWrap .artShop {display: flex; justify-content: space-between;}
+main .artShopWrap .artShop .artShopLeft {width: 855px; height: 630px; margin-right: 20px;}
+main .artShopWrap .artShop .artShopLeft ul {}
+main .artShopWrap .artShop .artShopLeft ul .brandList {position: relative;}
+main .artShopWrap .artShop .artShopLeft ul .brandList a {display: block; }
+main .artShopWrap .artShop .artShopLeft ul .brandList a img {width: 100%; height: auto; background: rgba(0, 0, 0, 0.8);}
+main .artShopWrap .artShop .artShopLeft ul .brandList a p{position: absolute; color: #f2f2f2; border: 1px solid #f2f2f2; padding: 13px 20px 20px 20px; top: 50%; white-space: nowrap; left: 50%; transform: translate(-50%, -50%); font-size: 3.75rem; font-weight: 500;}
+/* 오른쪽 시작 */
+main .artShopWrap .artShop .artShopList {width: calc(100% - 875px);}
+main .artShopWrap .artShop .artShopList ul {}
+main .artShopWrap .artShop .artShopList ul li {}
+main .artShopWrap .artShop .artShopList ul li a {}
+main .artShopWrap .artShop .artShopList ul li a .photo {margin-bottom: 20px;}
+main .artShopWrap .artShop .artShopList ul li a .photo img {}
+main .artShopWrap .artShop .artShopList ul li a .infor {}
+main .artShopWrap .artShop .artShopList ul li a .infor h3 {font-size: 1.25rem; font-weight: 500; margin-bottom: 13px;}
+main .artShopWrap .artShop .artShopList ul li a .infor h4 {color: #565656;}
+main .artShopWrap .artShop .artShopList ul li a .infor .price {color: #565656; margin: 10px 0 17px 0;}
+main .artShopWrap .artShop .artShopList ul li a .infor .mpoint {color: #898989; border: 0.5px solid #898989; border-radius: 6px; padding: 3px 8px; display: inline-block;}
+
+
+
+
+/* ===================================CONT6 시작 */
+main .library {width: 100%; padding: 0 60px; margin-bottom: 123px;}
+main .library h2 {font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
+main .library .libraryList {height: 730px; display: flex; justify-content: space-between;}
+main .library .libraryList .content {}
+main .library .libraryList .content a {position: relative; display: block;}
+main .library .libraryList .content:hover .photoInfor {display: block}
+main .library .libraryList .content a .photoInfor {}
+main .library .libraryList .content a .photoInfor img {width: 100%; height: 600px;}
+main .library .libraryList .content a .photoInfor {position: absolute; width: 100%; height: 600px; top: 0; text-align: center; background: rgba(0, 0, 0, 0.2); padding-top: 200px; display: none;}
+main .library .libraryList .content a .photoInfor p span {color: #fff; font-size: 0.88rem; font-weight: 400;  letter-spacing: -0.02em;}
+main .library .libraryList .content a .photoInfor .brandName {font-size: 2.19rem; font-weight: bold; margin-bottom: 23px;}
+main .library .libraryList .content a .photoInfor p {color: #fff; font-size: 1rem; letter-spacing: -0.02em; line-height: 170%}
+main .library .libraryList .content .text {margin-top: 40px;}
+main .library .libraryList .content .text h3 a {font-size: 1.25rem; font-weight: 600; margin-bottom: 17px;}
+main .library .libraryList .content .text p {color: #565656; margin-bottom: 10px;}
+main .library .libraryList .content .text p span {display: inline-block; font-size: 0.88rem; color: #898989; background: none; border: 0.5px solid #898989; border-radius: 5px; padding: 5px;}
+/* ===================================CONT2 시작 */
+/* ===================================banner 시작 */
+main .banner {margin-bottom: 250px; display: flex; justify-content: space-between;}
+main .banner li {}
+main .banner li a {}
+main .banner li a img {}
+/* ===================================footer 시작 */
+footer {background: #000;}
+footer .footerWrap {padding-top: 10px; display: flex; /* justify-content: space-between; */}
+footer .footerWrap .footerLeft{background: #fff; width: 633px; border-radius: 25px;}
+footer .footerWrap .footerLeft p {padding: 74px; border-bottom: 2px solid #000;}
+footer .footerWrap .footerLeft p img{}
+footer .footerWrap .footerLeft > ul {display: flex; justify-content: space-between;}
+footer .footerWrap .footerLeft ul .appLink {}
+footer .footerWrap .footerLeft ul .appLink ul {}
+footer .footerWrap .footerLeft ul .appLink ul li {}
+footer .footerWrap .footerLeft ul .appLink ul li:nth-child(1) {border-bottom: 2px solid #000; padding: 23px 40px 26px 20px;}
+footer .footerWrap .footerLeft ul .appLink ul li:nth-child(2) {padding: 23px 20px 20px 26px;}
+footer .footerWrap .footerLeft ul .appLink ul li img {}
+footer .footerWrap .footerLeft ul .qrCode {border-left: 2px solid #000; padding: 60px;}
+footer .footerWrap .footerLeft ul .qrCode img {}
+/* footerRight 시작 */
+footer .footerWrap .footerRight {width: calc(100% - 633px); background: #fff; margin-left: 10px; padding: 105px 159px 0 127px; border-radius: 25px; display: flex; justify-content: space-between;}
+footer .footerWrap .footerRight .rightCenter {}
+footer .footerWrap .footerRight .rightCenter .centerTop {}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap {border-bottom: 2px solid #000;}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap a {display: inline-block; padding-bottom: 29px; font-size: 1.38rem;}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap .notice {}
+footer .footerWrap .footerRight .rightCenter .centerTop .tap .event {margin-left: 33px; color: #868686;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList {padding-top: 29px; height: 190px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul {}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li {margin-bottom: 20px; width: 620px; position: relative;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li:last-child {margin-bottom: 0;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li a {display: block;}
+footer .footerWrap .footerRight .rightCenter .centerTop .noticeList ul li a span {color: #868686; font-size: 0.88rem; position: absolute; right: 0; line-height: 16px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList {display: none; padding-top: 29px; height: 190px;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul {}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li {margin-bottom: 20px; width: 620px;position: relative;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li:last-child {margin-bottom: 0;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li a {display: block;}
+footer .footerWrap .footerRight .rightCenter .centerTop .eventList ul li a span {color: #868686; font-size: 0.88rem; position: absolute; right: 0; line-height: 16px;}
+/* 이용약관 */
+footer .footerWrap .footerRight .rightCenter .centerBottom{width: 620px; margin-top: 62px; display: flex; justify-content: space-between;}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl {}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dt {margin-bottom: 15px;}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dd{}
+footer .footerWrap .footerRight .rightCenter .centerBottom dl dd a{display: block; font-size: 0.88rem; margin-bottom: 10px;}
+
+
+
+
+footer .footerWrap .footerRight .rightR {}
+footer .footerWrap .footerRight .rightR .csCenter {}
+footer .footerWrap .footerRight .rightR .csCenter h3 {font-size: 1.38rem;}
+footer .footerWrap .footerRight .rightR .csCenter .csNumber {font-size: 1.88rem; margin: 10px 0 15px 0;}
+footer .footerWrap .footerRight .rightR .csCenter .csHours {}
+
+footer .footerWrap .footerRight .rightR .contact {margin-top: 55px;}
+footer .footerWrap .footerRight .rightR .contact h3 {font-size: 1.38rem; line-height: 1.8rem;}
+footer .footerWrap .footerRight .rightR .contact h3 img {}
+footer .footerWrap .footerRight .rightR .contact p {margin: 13px 0;}
+footer .footerWrap .footerRight .rightR .contact .mailAddress {font-size: 0.88rem; font-weight: 300;}
+footer .footerWrap .footerRight .rightR .button {display: flex; margin-top: 57px;}
+footer .footerWrap .footerRight .rightR .button a {display: inline-block; margin-right: 17px; border: 1px solid #868686; padding: 10px;}
+footer .footerWrap .footerRight .rightR .button a:hover {background: #000; color: #fff; border: #000;}
+footer .footerWrap .footerRight .rightR .button a:last-child {margin-right: 0;}
+
+footer .footerInforWrap {width: 1400px; margin: 0 auto; color: #F2F2F2; display: flex; justify-content: space-between; padding: 23px 0; }
+footer .footerInforWrap img {}
+footer .footerInforWrap .footerInfor {display: flex;}
+footer .footerInforWrap .footerInfor li {color: #F2F2F2; line-height: 30px;}
+footer .footerInforWrap .footerInfor li::after {content: '|'; padding: 0 10px;}
+footer .footerInforWrap .footerInfor li:nth-child(3):after {content: '';}
+footer .footerInforWrap .footerInfor li span {}
+footer .footerInforWrap .footerInfor li span a {color: #f2f2f2; font-size: 0.88rem; cursor: pointer;}
+footer .footerInforWrap p {color: #F2F2F2; line-height: 30px;}
+
+
+
+#topBtn{display: block; width: 40px; height: 40px; border-radius: 100%; background-color: rgba(0, 0, 0, 0.5); color: #f2f2f2;
+  text-align: center; line-height: 40px; position: fixed; right: 60px; bottom: 30px;}
