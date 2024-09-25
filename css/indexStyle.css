@@ -1,4 +1,3 @@
-
 /* ===================================mainVisual 시작 */
 main {padding-top: 80px;}/* 헤더 높이 */
 main .main {height: 700px; margin-bottom: 123px;}
@@ -30,9 +29,9 @@ main .cont2 .cont2Wrap .swiper{}
 main .cont2 .cont2Wrap .cont2List .cont2Left {}
 main .cont2 .cont2Wrap .cont2List .cont2Left li {position: relative; width: 738px;}
 main .cont2 .cont2Wrap .cont2List .cont2Left li a {display: block;}
-main .cont2 .cont2Wrap .cont2List .cont2Left li a .contImg {}
+main .cont2 .cont2Wrap .cont2List .cont2Left li a .contImg {width: 738px;}
 main .cont2 .cont2Wrap .cont2List .cont2Left li a .contImg img {width: 100%;}
-main .cont2 .cont2Wrap .cont2List .cont2Left li a .imgTxt {position: absolute; top: 392px; left: 216px; text-align: center;}
+main .cont2 .cont2Wrap .cont2List .cont2Left li a .imgTxt {position: absolute; top: 392px; left: 50%; transform: translateX(-50%); text-align: center; }
 main .cont2 .cont2Wrap .cont2List .cont2Left li a .imgTxt .brandName {font-size: 3.75rem; font-weight: 500; margin-bottom: 30px;}
 main .cont2 .cont2Wrap .cont2List .cont2Left li a .imgTxt p {color: #fff; font-size: 1.25rem;}
 main .cont2 .cont2Wrap .cont2List .cont2Left li a .imgTxt .box_txt {margin-top: 30px; border: 1px solid #fff; padding: 11px 15px;}
@@ -55,6 +54,7 @@ main .cont3 .cont3_bn .cont3_bn_in {}
 main .cont3 .cont3_bn .cont3_bn_in a {}
 main .cont3 .cont3_bn .cont3_bn_in a img {}
 main .cont3 .cont3_bn .cont3_bn_in a p {color: #fff; position: absolute; top: 408px; left: 50%; transform: translateX(-50%);}
+main .cont3 .cont3_bn .cont3_bn_in a .novesta {color: #000;}
 /* 하단 시작 */
 main .cont3 .cont3_event {display: flex;}
 main .cont3 .cont3_event li { display: flex; margin-left: 20px; width: 627px; height: 650px;}
