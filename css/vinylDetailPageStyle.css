@@ -1,4 +1,4 @@
-
+body > * {/* min-width: 1920px; */ overflow-x: hidden;}
 /* ===================================main 시작 */
 main {padding-top: 80px;}/* 헤더 높이 */
 main .product {margin: 120px 0 230px 0; display: flex; justify-content: center;}
@@ -43,6 +43,7 @@ main .qna , .review ul {display: flex; width: 1234px; margin: 0 auto; justify-co
 main .qna li {}
 main .qna li a {font-size: 1.38rem;}
 main .qna li .button, .review ul li .button {font-size: 0.88rem; border: 0.5px solid #545454; padding: 6px 22px;}
+main .qna li:hover .button, .review ul li:hover .button {font-size: 0.88rem; background: #000; color: #fff; border: 0.5px solid #000; padding: 6px 22px;}
 main .review {margin-top: 111px; } 
 main .review ul {padding-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid #000;}
 main .review ul li {}

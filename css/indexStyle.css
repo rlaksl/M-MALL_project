@@ -83,24 +83,22 @@ main .forYou .forYouList div a .infor p {line-height: 23px; color: #565656;}
 /* ===================================CONT5(living) 시작 */
 main .livingWrap {margin-bottom: 123px;}
 main .livingWrap h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
-main .livingWrap .livingContent {display: flex;}
-main .livingWrap .livingList {width: calc((100% / 3) - 20px); margin-left: 20px;}
-main .livingWrap .livingList:nth-child(1) {margin-left: 0;}
+main .livingWrap .livingContent {display: flex; justify-content: space-between;}
+main .livingWrap .livingList {width: calc((100% / 3) - 15px);}
 main .livingWrap .livingList .photo {}
 main .livingWrap .livingList .photo img {width: 100%;}
 main .livingWrap .livingList .photo img {}
 main .livingWrap .livingList .infor {width: 100%; padding: 50px 0; text-align: center;}
 main .livingWrap .livingList:nth-child(1) {background: #FFFDD9;}
 main .livingWrap .livingList:nth-child(2) {background: #FAE3E3;}
-main .livingWrap .livingList:nth-child(3) {background: #E8EBEC;}
+main .livingWrap .livingList:nth-child(3) {background: #E2F3F9;}
 main .livingWrap .livingList .infor h3 {font-size: 2.00rem; font-weight: bold; color: #313131; margin-bottom: 25px;}
 main .livingWrap .livingList .infor p {font-size: 1.25rem; color: #313131; font-weight: 500;}
 /* ===================================CONT6(tech) 시작 */
 main .techWrap {margin-bottom: 123px;}
 main .techWrap h2 {padding: 0 60px; font-size: 2.19rem; font-weight: 600; margin-bottom: 50px;}
-main .techWrap .techContent {display: flex;}
-main .techWrap .techList {width: calc((100% / 3) - 20px); margin-left: 20px;}
-main .techWrap .techList:nth-child(1) {margin-left: 0;}
+main .techWrap .techContent {display: flex; justify-content: space-between;}
+main .techWrap .techList {width: calc((100% / 3) - 15px);}
 main .techWrap .techList .photo {}
 main .techWrap .techList .photo img {width: 100%;}
 main .techWrap .techList .photo img {}

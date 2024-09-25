@@ -131,9 +131,9 @@
           </dl>
         </div>
         <div class="button">
-          <ul class="like">
+          <ul class="like" id="likeBtn">
             <li><img src="./img/vinylDetailPageImg/ico_like.png" alt="좋아요"></li>
-            <li>119</li>
+            <li id="likeCount">119</li>
           </ul>
           <ul>
             <li><a href="#">선물하기</a></li>
@@ -163,7 +163,7 @@
     </ul>
     <div class="review">
       <ul>
-        <li><a href="#">평점및 상품평 (0) </a></li>
+        <li><a href="#" >평점 및 상품평 (0) </a></li>
         <li><a href="#" class="button">작성하기</a></li>
       </ul>
       <div class="text">
@@ -336,14 +336,27 @@
         $(this).attr('src','img/vinylDetailPageImg/ico_likeFull.png')
       }
       else{$(this).attr('src','img/vinylDetailPageImg/ico_like.png')}
-    });/* 
-    let number = true;
+    });
+      $(document).ready(function() {
+    // i 변수로 클릭 상태를 추적
     let i = 0;
-    function colorChange(){
+
+    // 클릭 이벤트 핸들러
+    $('#likeBtn').click(function() {
+      // 현재 숫자를 가져오기
+      let count = parseInt($('#likeCount').text());
+
+      // i 값이 짝수일 때 증가, 홀수일 때 감소
+      if (i % 2 === 0) {
+        $('#likeCount').text(count + 1); // 짝수 클릭 시 증가
+      } else {
+        $('#likeCount').text(count - 1); // 홀수 클릭 시 감소
+      }
+
+      // i 값을 증가시켜 클릭 횟수를 추적
       i++;
-      if(i >= color.length){i = 0;}
-      let bodyTag = document.getElementById('theBody');
-      bodyTag.style.backgroundColor = color[i];} */
+    });
+  });
 
     const recommended = new Swiper(".recommended",{
       slidesPerView:4, //한 번에 작성할 때, 한 화면에 보이는 슬라이드의 개수, 실제 개수보다 작게 넣어야 함
