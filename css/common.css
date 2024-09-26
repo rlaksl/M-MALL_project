@@ -4,9 +4,9 @@ header {position: fixed; top: 0; left: 0; width: 100%; height: 80px; z-index: 10
 header .logo {}
 header .logo a {display: block; width: 132px;}
 header .logo a img {width: 100%; height: auto;}
-header nav {text-align: center; /* width: max-content; */}
+header nav {position: relative; /* width: max-content; */}
 header nav .gnb {display: flex;}
-header nav .gnb > li {margin-left: 53px; }
+header nav .gnb > li {margin-left: 53px; position: relative; z-index: 200; /*  */}
 header nav .gnb > li:hover a {font-weight: 600; transition: all 0.5s;}
 header nav .gnb > li:nth-child(1) {margin: 0;}
 header nav .gnb > li a {}
@@ -15,6 +15,26 @@ header nav .gnb > li:nth-child(9) a, header nav .gnb li:nth-child(10) a {color: 
 header .lnb {display: flex;}
 header .lnb li {margin-left: 25px;}
 header .lnb li:nth-child(1) {margin: 0;}
+
+
+/* ************* */
+/* =============================서브 공통 배경 위치 */
+/* header nav .sub_bg {
+  background: #f9f9f9;
+  display: block; position: absolute; margin-top: 32px;
+  width: 100%; height: 250px;
+}
+header nav .gnb > li a {
+}
+header nav .gnb > li .sub {
+  position: absolute;
+  width: max-content; text-align: center;
+  left: 50%; transform: translateX(-50%);
+  top: 43px;
+}
+header nav .gnb > li .sub li {}
+header nav .gnb > li .sub li a {
+  line-height: 1.7; letter-spacing: -2%;} */ /* sub 메뉴 */
 /* ===================================banner 시작 */
 main .banner {margin-bottom: 250px; display: flex; justify-content: space-between;}
 main .banner li {}

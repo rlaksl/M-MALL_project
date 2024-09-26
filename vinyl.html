@@ -342,17 +342,15 @@
     let i = 0;
 
     // 클릭 이벤트 핸들러
-    $('#likeBtn').click(function() {
+    $('#likeBtn li:first-child').click(function() {
       // 현재 숫자를 가져오기
       let count = parseInt($('#likeCount').text());
-
       // i 값이 짝수일 때 증가, 홀수일 때 감소
       if (i % 2 === 0) {
         $('#likeCount').text(count + 1); // 짝수 클릭 시 증가
       } else {
         $('#likeCount').text(count - 1); // 홀수 클릭 시 감소
       }
-
       // i 값을 증가시켜 클릭 횟수를 추적
       i++;
     });
