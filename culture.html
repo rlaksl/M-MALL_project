@@ -734,6 +734,9 @@
               <p>open edition</p>
             </a></li>
           </ul>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
         </div><!-- artShopLeft 래프트-->
         <div class="swiper artShopList">
           <ul class="swiper-wrapper">
@@ -946,7 +949,6 @@
     </div>
   </footer>
   <a href="#" id="topBtn">TOP</a>
-
   <script>
     $(document).ready(function() {
     // 카테고리 클릭 이벤트
@@ -965,6 +967,13 @@
 
 
     const cont4Left = new Swiper('.artShopLeft',{
+      navigation:{
+        prevEl:'.artShopLeft .swiper-button-prev',
+        nextEl:'.artShopLeft .swiper-button-next',
+      },
+      pagination: {
+        el: '.artShopLeft .swiper-pagination',
+      },
       
     })
     const cont4Right = new Swiper('.artShopList',{

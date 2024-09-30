@@ -63,6 +63,6 @@ main .recommendedWrap .recommended ul li a {}
 main .recommendedWrap .recommended ul li .photo {width: 100%}
 main .recommendedWrap .recommended ul li .photo img {}
 main .recommendedWrap .recommended ul li .infor {margin-top: 20px;}
-main .recommendedWrap .recommended ul li .infor h3 {font-weight: 500;}
+main .recommendedWrap .recommended ul li .infor h3 {font-weight: 500; width: 270PX; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
 main .recommendedWrap .recommended ul li .infor .price {margin: 17px 0 13px; color: #565656;}
 main .recommendedWrap .recommended ul li .infor .mpoint {color: #868686; font-size: 0.81rem; background: #f2f2f2; display: inline-block; padding: 7px; border-radius: 10px;}
