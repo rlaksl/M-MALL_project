@@ -1,6 +1,6 @@
 /* ===================================mainVisual 시작 */
 main {padding-top: 80px;}/* 헤더 높이 */
-main .main {height: 700px; margin-bottom: 123px;}
+main .main { margin-bottom: 123px;}
 main .main .swiper-button-prev {left: 60px; color: #f8f8f8; transform: scaleX(1);}
 main .main .swiper-button-next {right: 60px; color: #f8f8f8; transform: scaleX(1);}
 main .main .swiper-pagination {bottom: 20px;}
